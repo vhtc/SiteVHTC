@@ -27,9 +27,10 @@
         <link href="styletop.css" rel="stylesheet">
         <div class="topnav" id="myTopnav">
           <a style="border-radius: 10%;" href="#home" onclick="" class="active">Home</a>
-          <a style="border-radius: 10%;" href="#news">News</a>
-          <a style="border-radius: 10%;" href="#contact">Contact</a>
-          <a style="border-radius: 10%;" href="#about">About</a>
+          <a style="border-radius: 10%;" href="#sobre">Sobre</a>
+          <a style="border-radius: 10%;" href="#softwares">Softwares</a>
+          <a style="border-radius: 10%;" href="#formação">Formação</a>
+          <a style="border-radius: 10%;" href="#projetos">Projetos</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -37,6 +38,7 @@
         
         <script>
         function myFunction() {
+          
           var x = document.getElementById("myTopnav");
           if (x.className === "topnav") {
             x.className += " responsive";
@@ -106,7 +108,7 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <p>
         
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/react.png" alt="react" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares" ><button class="buttonsoftware"><img src="softwares/react.png" alt="react" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move1()" style="background-color: black">
             <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
@@ -116,7 +118,7 @@
       </p>
       <p>
         
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/js.png" alt="js" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/js.png" alt="js" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move()" style="background-color: black">
             <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
@@ -126,7 +128,7 @@
       </p>
       <p>
         
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/html.png" alt="html" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/html.png" alt="html" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move()" style="background-color: black">
             <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
@@ -136,7 +138,7 @@
       </p>
       <p>
         
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/css.png" alt="css" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/css.png" alt="css" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move()" style="background-color: black">
             <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
@@ -145,7 +147,7 @@
         
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/java.png" alt="java" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/java.png" alt="java" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -153,7 +155,7 @@
         </div>
       </p>
        <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/csharp.png" alt="csharp" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/csharp.png" alt="csharp" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -161,7 +163,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/androidstudio.png" alt="androidstudio" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/androidstudio.png" alt="androidstudio" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -169,7 +171,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/delphi.png" alt="delphi" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/delphi.png" alt="delphi" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -177,7 +179,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/maya.png" alt="maya" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/maya.png" alt="maya" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -185,7 +187,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/photoshop.png" alt="photoshop" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/photoshop.png" alt="photoshop" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -193,7 +195,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/Homestyler.png" alt="Homestyler" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/Homestyler.png" alt="Homestyler" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -201,7 +203,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/unity.png" alt="unity" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/unity.png" alt="unity" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -209,7 +211,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/unreal.png" alt="unreal" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/unreal.png" alt="unreal" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
@@ -217,7 +219,7 @@
         </div>
       </p>
       <p>
-        <div style="display: inline-block;"><button class="buttonsoftware"><img src="softwares/construct.png" alt="construct" width="40px" height="40px" /></button></div>
+        <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/construct.png" alt="construct" width="40px" height="40px" /></button></div>
         <div class="b">
           <div onclick="move2()" style="background-color: black">
             <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>

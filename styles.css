@@ -3,7 +3,10 @@
 html {
   scroll-behavior: smooth; /*scrroll lento*/
 }
-
+ .imgsoftwares{
+  display: inline-block;
+  margin-top: 15px;
+ }
 body {
   position: relative;
   margin: 0;
@@ -310,7 +313,7 @@ background-color: rgba(0, 0, 0, 0);
 border: none;
 border-radius: 50%;
 color: black;
-cursor: point;
+cursor: pointer;
 }
 
 .button {
