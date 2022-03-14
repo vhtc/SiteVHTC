@@ -1,0 +1,15 @@
+.buttonsoftware{
+    background-color: rgba(0, 0, 0, 0);
+border: none;
+border-radius: 50%;
+color: black;
+cursor: auto;
+}
+
+.b{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    
+}

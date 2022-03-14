@@ -1,0 +1,36 @@
+json campeao
+https://enquete.uol.com.br/results?format=jsonp&jsonp=angular.callbacks._9&id=58416&
+
+button 1
+https://tv.tyflexplus.site/embed/902cdf85-2fd7-4465-801d-407c29ac6f66/
+
+button 2
+https://tv.tyflexplus.site/embed/9de83d18-ff3b-4257-9c5a-27b69ebc3f29
+
+BUTTON 3
+bbb normal
+https://sinalpublico.com/player3/ch.php?canal=bbb
+
+BUTTON 4
+bb normal 2
+https://sinalpublico.com/player3/ch.php?canal=bbb22a
+
+BUTTON 5
+bb normal 3
+https://sinalpublico.com/player3/ch.php?canal=bbb22
+
+BUTTON 6
+BBB MOSAICO
+
+
+BUTTON 7
+button 3 globo nordeste
+https://sinalpublico.com/player3/ch.php?canal=bobonordeste
+
+BUTTON 8
+button 1 globo sp
+https://sinalpublico.com/player3/ch.php?canal=bobosp
+
+BUTTON 9
+button 1 globo rj 
+https://sinalpublico.com/player3/ch.php?canal=boborj
