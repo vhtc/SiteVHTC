@@ -1,4 +1,4 @@
-# BBB 22 (vhtc site)
+# SITE VHTC
 
 Preview demo site [right here](https://bbb22.netlify.app/).
 
