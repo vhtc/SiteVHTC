@@ -24,29 +24,19 @@
     
     
     <div class="marvellous-container-top">  
-        <link href="styletop.css" rel="stylesheet">
+        <link href="navbar.css" rel="stylesheet">
         <div class="topnav" id="myTopnav">
-          <a style="border-radius: 10%;" href="#home" onclick="" class="active">Home</a>
-          <a style="border-radius: 10%;" href="#sobre">Sobre</a>
-          <a style="border-radius: 10%;" href="#softwares">Softwares</a>
-          <a style="border-radius: 10%;" href="#formação">Formação</a>
-          <a style="border-radius: 10%;" href="#projetos">Projetos</a>
+          <a style="border-radius: 10%;" href="#home" onclick="home()" class="active">Home</a>
+          <a style="border-radius: 10%;" href="#sobre" onclick="sobre()">Sobre</a>
+          <a style="border-radius: 10%;" href="#softwares" onclick="softwares()">Softwares</a>
+          <a style="border-radius: 10%;" href="#formação"onclick="formação()">Formação</a>
+          <a style="border-radius: 10%;" href="#projetos" onclick="projetos()">Projetos</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
-        
-        <script>
-        function myFunction() {
-          
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+    
+        <script src="/JS/navbar.js"></script>
     </div>
 
     <div class="marvellous-container">
@@ -68,7 +58,7 @@
         <br/>
       </div>
 
-      <script src="digitando.js"></script>
+      <script src="/JS/digitando.js"></script>
 
       <br/>
       <br/>
@@ -226,7 +216,7 @@
           </div>
         </div>
       </p>
-      <script src="bar.js"></script>
+      <script src="/JS/bar.js"></script>
     </div>
     <!-- fim softwares -->
 
@@ -253,6 +243,7 @@
               </h1>
           </div>
         </footer> 
+        <a style="background-image: url(https://i.ibb.co/RvTJC4r/whatsapp.png); border-radius: 34px;width: 60px; font-size: 0; height: 60px;position: fixed;right: 10px;z-index: 999;display: block;bottom: 10px;background-size: 73%;background-repeat: no-repeat;background-color: #1bd741;background-position: center;" target="_blank" href="https://wa.me/5571987881607?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es.">link whatsapp</a>
       </div> 
       <!-- fim do rodape -->
   </body>
