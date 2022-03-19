@@ -8,8 +8,24 @@ cursor: auto;
 
 .b{
     display: inline-block;
-    width: 30%;
+    width: 50%;
     height: auto;
     padding: 5px;
     
 }
+
+.div_bar{
+    background-color: rgba(0, 0, 0, 0);
+    /* width: 200px; */
+
+}
+
+@media (max-width: 800px) {
+    /* .buttonsoftware{
+        background-color: red;
+border: none;
+border-radius: 50%;
+color: black;
+cursor: auto;
+    } */
+  }

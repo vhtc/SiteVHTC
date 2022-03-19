@@ -28,7 +28,7 @@
         <div class="topnav" id="myTopnav">
           <a style="border-radius: 10%;" href="#home" onclick="home()" class="active">Home</a>
           <a style="border-radius: 10%;" href="#sobre" onclick="sobre()">Sobre</a>
-          <a style="border-radius: 10%;" href="#softwares" onclick="softwares()">Softwares</a>
+          <a style="border-radius: 10%;" href="#softwares" onclick="softwares(), animation_bars_softwares()">Softwares</a>
           <a style="border-radius: 10%;" href="#formação"onclick="formação()">Formação</a>
           <a style="border-radius: 10%;" href="#projetos" onclick="projetos()">Projetos</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -92,7 +92,9 @@
 
 
     <!-- incio softwares     -->
-    <div class="marvellous-container-softwares">
+    <div class="marvellous-container-softwares" id="softwares">
+      <script src="/JS/bar.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       
       <link href="softwares.css" rel="stylesheet">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -100,18 +102,17 @@
         
         <div class="imgsoftwares" ><button class="buttonsoftware"><img src="softwares/react.png" alt="react" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move1()" style="background-color: black">
-            <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar1" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
-        
       </p>
       <p>
         
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/js.png" alt="js" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move()" style="background-color: black">
-            <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar2" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
 
@@ -120,8 +121,8 @@
         
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/html.png" alt="html" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move()" style="background-color: black">
-            <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar3" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
         
@@ -130,8 +131,8 @@
         
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/css.png" alt="css" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move()" style="background-color: black">
-            <div id="myBar" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar4" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
         
@@ -139,80 +140,80 @@
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/java.png" alt="java" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar5" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
        <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/csharp.png" alt="csharp" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar6" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/androidstudio.png" alt="androidstudio" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar7" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/delphi.png" alt="delphi" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar8" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/maya.png" alt="maya" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar9" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/photoshop.png" alt="photoshop" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar10" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/Homestyler.png" alt="Homestyler" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar11" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/unity.png" alt="unity" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar12" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/unreal.png" alt="unreal" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar13" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/construct.png" alt="construct" width="40px" height="40px" /></button></div>
         <div class="b">
-          <div onclick="move2()" style="background-color: black">
-            <div id="myBar2" class="w3-green" style="height:20px;width:0"></div>
+          <div  class="div_bar">
+            <div id="bar14" class="w3-green" style="height:20px;width:0"></div>
           </div>
         </div>
       </p>
