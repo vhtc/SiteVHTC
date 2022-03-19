@@ -1,6 +1,6 @@
-# BBB 22 (vhtc site)
+# VHTC. (vhtc site)
 
-Preview demo site [right here](https://bbb22.netlify.app/).
+Preview demo site [right here](https://vhtc.netlify.app/).
 
 Silly demo site to be used for [Netlify Drop](https://app.netlify.com/drop).
 
