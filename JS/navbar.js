@@ -1,5 +1,5 @@
 function softwares() {
-    window.scrollTo(0, 1000);
+    window.scrollTo(0, 0);
 }
 function myFunction() {
 var x = document.getElementById("myTopnav");

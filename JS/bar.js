@@ -9,12 +9,22 @@ function animation_bars_softwares(){
   setTimeout(() => { move8(); }, 3500);
   setTimeout(() => { move9(); }, 4000); 
   setTimeout(() => { move10(); }, 4500);
-  setTimeout(() => { move11(); }, 5000); 
-  setTimeout(() => { move12(); }, 5500);
-  setTimeout(() => { move13(); }, 6000); 
-  setTimeout(() => { move14(); }, 6500);
+ 
 }
-
+var y=0;
+ function animation_bars_softwares2(){
+   if (y==0){
+  setTimeout(() => { move11(); }, 0); 
+  setTimeout(() => { move12(); }, 500);
+  setTimeout(() => { move13(); }, 1000); 
+  setTimeout(() => { move14(); }, 1500);
+  setTimeout(() => { move15(); }, 2000);
+  setTimeout(() => { move16(); }, 2500);
+  setTimeout(() => { move17(); }, 3000);
+  setTimeout(() => { move18(); }, 3500);
+  y++;
+ }
+}
 //animação
 var x =0; //global x para div tela 
 
@@ -208,6 +218,58 @@ function move1() {
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= 80) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+  function move15() {
+    var elem = document.getElementById("bar15");   
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 75) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+  function move16() {
+    var elem = document.getElementById("bar16");   
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 60) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+  function move17() {
+    var elem = document.getElementById("bar17");   
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+      } else {
+        width++; 
+        elem.style.width = width + '%'; 
+      }
+    }
+  }
+  function move18() {
+    var elem = document.getElementById("bar18");   
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 60) {
         clearInterval(id);
       } else {
         width++; 

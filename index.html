@@ -28,7 +28,7 @@
         <div class="topnav" id="myTopnav">
           <a style="border-radius: 10%;" href="#home" onclick="home()" class="active">Home</a>
           <a style="border-radius: 10%;" href="#sobre" onclick="sobre()">Sobre</a>
-          <a style="border-radius: 10%;" href="#softwares" onclick="softwares()">Softwares</a>
+          <a style="border-radius: 10%;" href="#softwares" onclick="softwares()">Linguagens e Softwares</a>
           <a style="border-radius: 10%;" href="#formação"onclick="formação()">Formação</a>
           <a style="border-radius: 10%;" href="#projetos" onclick="projetos()">Projetos</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -90,16 +90,19 @@
       </div>
 
 
-
+      
     <!-- incio softwares     -->
-    <div class="marvellous-container-softwares" id="softwares">
+    <div class="marvellous-container-softwares">
+      
       <script src="/JS/bar.js"></script>
+      
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       
       <link href="softwares.css" rel="stylesheet">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+      <div id="softwares">  
       <p>
-        
         <div class="imgsoftwares" ><button class="buttonsoftware"><img src="softwares/react.png" alt="react" width="40px" height="40px" /></button></div>
         <div class="b">
           <div  class="div_bar">
@@ -185,6 +188,21 @@
           </div>
         </div>
       </p>
+      <button class="button"  id="button_mais" type="button" onclick="chamada(), animation_bars_softwares2()">Mostrar mais</button>
+        <script>
+                 function chamada(){
+                  Mudarestado('mais_softwares');
+                  var display = document.getElementById('button_mais').style.display;
+                   if(display == "none")
+                      document.getElementById('button_mais').style.display = 'inline-block';
+                  else
+                      document.getElementById('button_mais').style.display = 'none';
+                 }    
+        </script>
+      </div>
+
+      <div id="mais_softwares" style="display: none;">
+      
       <p>
         <div class="imgsoftwares"><button class="buttonsoftware"><img src="softwares/Homestyler.png" alt="Homestyler" width="40px" height="40px" /></button></div>
         <div class="b">
@@ -249,7 +267,11 @@
           </div>
         </div>
       </p>
+      <button  class="button" id="button_menos" type="button" onclick="chamada()">Mostrar menos</button>
+    </div>
       <script src="/JS/bar.js"></script>
+      <script src="/JS/div_softwares.js"></script>
+      
     </div>
     <!-- fim softwares -->
 
@@ -257,6 +279,8 @@
       <div class="rodape-vhtc">
         <iframe width="500" height="75" src="https://www.youtube.com/embed/videoseries?list=PLofht4PTcKYnaH8w5olJCI-wUVxuoMHqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <footer>
+          
+          
           <div class="header2">
               <h1> 
                 <span style="font-size: 100%;" class="title-logo-vhtc-verde">V</span>
@@ -273,7 +297,7 @@
                 <button class="buttonredes" onclick="window.open('https://api.whatsapp.com/send?phone=5571987881607&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es.');"><img src="/redes_sociais/wtts.png" alt="wtts" width="40px" height="40px" /></button>
                 <button class="buttonredes" onclick="window.open('https://github.com/vhtc');"><img src="/redes_sociais/git.png" alt="git" width="40px" height="40px" /></button>
                 <button class="buttonredes" onclick="window.open('mailto:victor.tuy@hotmail.com?subject=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es.');"><img src="/redes_sociais/email.png" alt="email" width="40px" height="40px" /></button>
-                <button class="buttonredes" onclick="window.open('https://www.youtube.com/channel/UCh7RtjZyv-05IzHYN-8O3Nw');"><img src="/redes_sociais/youtube.png" alt="git" width="45px" height="40px" /></button>
+                <button class="buttonredes" onclick="window.open('https://www.youtube.com/channel/UCh7RtjZyv-05IzHYN-8O3Nw');"><img src="/redes_sociais/youtube.png" alt="youtube" width="45px" height="40px" /></button>
               </h1>
           </div>
         </footer> 
