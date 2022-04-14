@@ -23,6 +23,7 @@ cursor: auto;
 .button {
     background-color: black; /* Green */
     border: none;
+    border-radius: 50px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -32,6 +33,7 @@ cursor: auto;
     margin: 4px 2px;
     cursor: pointer;
     display: inline-block;
+    box-shadow: 1px 3px 4px 0px rgba(0, 0, 0, 0.342);
   }
 
 @media (max-width: 800px) {

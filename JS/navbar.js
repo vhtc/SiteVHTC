@@ -1,6 +1,7 @@
-function softwares() {
-    window.scrollTo(0, 0);
-}
+// function softwares() {
+//     window.scrollTo(0, 0);
+// }
+
 function myFunction() {
 var x = document.getElementById("myTopnav");
 if (x.className === "topnav") {
