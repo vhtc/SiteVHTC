@@ -23,6 +23,15 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+#cd-timeline2 {
+    position: relative;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
 #cd-timeline::before {
     content: '';
     position: absolute;
@@ -31,6 +40,17 @@
     height: 100%;
     width: 4px;
     background: greenyellow;
+}
+
+#cd-timeline2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 100%;
+    width: 4px;
+    background: rgba(172, 255, 47, 0);
+    
 }
 @media only screen and (min-width: 1170px) {
     #cd-timeline {
@@ -205,6 +225,12 @@ font-size: 0px;
         border-color: transparent;
         border-left-color: #333c42;
    }
+   .cd-timeline-content2::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #333c4200;
+}
     .cd-timeline-content .cd-date {
         position: absolute;
         width: 100%;
